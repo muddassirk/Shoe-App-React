@@ -11,8 +11,8 @@ export default function Route() {
             <Router>
                 <Switch>
                     <Route path='/' component={} />
-                    <Route />
-                    <Route />
+                    <Route path='/about' component={} />
+                    <Route path='/product' component={} />
                 </Switch>
             </Router>
             
