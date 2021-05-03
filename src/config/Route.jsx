@@ -8,11 +8,13 @@ import Home from '../components/Home'
 import About from '../components/About'
 import Product from '../components/Product'
 import ProductItems from '../components/ProductItems'
+import NavBar from '../components/NavBar'
 
 export default function Rout() {
     return (
         <div>
             <Router>
+                <NavBar />
                 <Switch>
                     <Route exact path='/' component={Home} />
                     <Route path='/about' component={About} />
