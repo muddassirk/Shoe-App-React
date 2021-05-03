@@ -1,10 +1,10 @@
 import './App.css';
-import Route from './config/Route';
+import Rout from './config/Route';
 
 function App() {
   return (
     <div>
-      <Route />
+      <Rout />
     </div>
   );
 }
